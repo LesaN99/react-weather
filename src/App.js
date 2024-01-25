@@ -4,6 +4,7 @@ import './App.css';
 export default function App() {
   return (
     <div className="App">
+      <div className="container">
     Weather App
       <p>
           This project was coded by
@@ -11,6 +12,7 @@ export default function App() {
           <a href="https://github.com/LesaN99/react-weather" target="_blank"  rel="noreferrer"> on GitHub</a> and
           <a href="https://deluxe-trifle-65b146.netlify.app/" target="_blank"  rel="noreferrer"> hosted on Netlify</a>
         </p>
+    </div>
     </div>
   );
 }
