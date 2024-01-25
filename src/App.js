@@ -1,17 +1,17 @@
-
+import Weather from "./Weather";
 import './App.css';
 
 export default function App() {
   return (
     <div className="App">
       <div className="container">
-    Weather App
-      <p>
+    <Weather />
+      <footer>
           This project was coded by
           <a href="https://github.com/LesaN99" target="_blank" rel="noreferrer"> Palesa Ndlovu </a> and is
           <a href="https://github.com/LesaN99/react-weather" target="_blank"  rel="noreferrer"> on GitHub</a> and
           <a href="https://deluxe-trifle-65b146.netlify.app/" target="_blank"  rel="noreferrer"> hosted on Netlify</a>
-        </p>
+        </footer>
     </div>
     </div>
   );
