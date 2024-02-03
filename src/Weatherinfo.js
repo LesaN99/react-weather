@@ -1,11 +1,12 @@
 import React from "react";
 import FormattedDate from "./FormattedDate";
+import "./Weather.css";
 
 
 export default function Weatherinfo(props) {
     return (
         <div className="Weatherinfo">
-             <h1>{weather.city}</h1>
+             <h1>{props.data.city}</h1>
             <ul>
                 <li>
                     <FormattedDate date={props.data.date} />
@@ -27,7 +28,6 @@ export default function Weatherinfo(props) {
                         <li>wind: {props.data.wind}km/h</li> 
                     </uL>
                 </div>
-            </div>
             </div>
         </div>
     )
